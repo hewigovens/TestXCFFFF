@@ -1,0 +1,24 @@
+PODS:
+  - SwiftProtobuf (1.8.0)
+  - WalletCoreFW (2.0.2):
+    - SwiftProtobuf
+
+DEPENDENCIES:
+  - SwiftProtobuf
+  - WalletCoreFW (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  WalletCoreFW:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  SwiftProtobuf: 2cbd9409689b7df170d82a92a33443c8e3e14a70
+  WalletCoreFW: 8b85b429d81929957af154864746ae0e90cafd7e
+
+PODFILE CHECKSUM: cd82f0726912cb9b4b1a4adf3dac6d51222ce9aa
+
+COCOAPODS: 1.9.0
